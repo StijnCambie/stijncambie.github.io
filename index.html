@@ -15,6 +15,18 @@ function showhide(id){
     }
 }
 
+    <style>
+    .container {
+        display: flex;
+        align-items: center; /* Align text and image */
+    }
+    #SCpic {
+        width: 150px; /* Adjust as needed */
+        height: auto;
+        margin-left: 20px; /* Space between text and image */
+    }
+</style>
+
 
 
 //!-->
@@ -32,11 +44,13 @@ function showhide(id){
 
 <h1>Welcome at the Personal Page of Stijn Cambie</h1>
 
+    <div class="container">
+    <p>Currently I am employed as a mathematician (funded by FWO) within a computer science department,
+but there is no existential crisis as I can be considered as a problem-solver in all regards.</p>
 <img id="SCpic" src="StijnCambiePic.jpeg" alt="One of my profile pictures">
+</div>
 
 
-Currently I am employed as a mathematician (funded by FWO) within a computer science department,
-but there is no existential crisis as I can be considered as a problem-solver in all regards.
 One may also judge based on my <a href="javascript:void();" onclick="showhide('academic background')">Academic Background.</a>
 <blockquote id="intro" style="display:none;">
     <br>
